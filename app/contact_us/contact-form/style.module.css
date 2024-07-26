@@ -1,0 +1,137 @@
+.contact_wrapper {
+  height: 100vh;
+  padding: 90px;
+  color: #000;
+  padding-top: 140px;
+}
+
+.header {
+  color: #000;
+  font-size: 50px;
+  text-decoration: underline;
+  text-decoration-color:#008ecc ;
+}
+
+.contact_inner_wrapper {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.left_card {
+  width: 50%;
+}
+
+.left_card span {
+  color: #cb9b51;
+  text-decoration: underline;
+  text-decoration-color: #008ecc;
+  font-size: 19px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.left_card h3 {
+  margin-top: 30px;
+}
+
+.left_card h4 {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: fff;
+}
+
+.left_card button {
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+  color: #fff;
+  background-color: #008ecc;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.contact_info p {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 0;
+  margin-top: 20px;
+}
+
+.right_card {
+  width: 40%;
+}
+
+.right_card h2 {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  font-size: 16px;
+}
+
+.label {
+  margin-bottom: 20px;
+}
+
+.submit {
+  margin-top: 1rem;
+  cursor: pointer;
+  background-color: #008ecc;
+  color: #fff;
+  border: none;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+}
+.input {
+  width: 100%;
+  height: 35px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+  margin-bottom: 20px;
+}
+
+.input:focus {
+  border: 2px solid #008ecc;
+}
+
+.textarea {
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  max-height: 100px;
+  min-height: 100px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.textarea:focus {
+  border: 2px solid rgba(0, 206, 158, 1);
+}
+
+@media only screen and (max-width: 1000px) {
+  .contact_wrapper {
+    padding: 5em 2em;
+  }
+
+  .contact_inner_wrapper {
+    display: block;
+  }
+
+  .left_card,
+  .right_card {
+    width: 100%;
+  }
+}
