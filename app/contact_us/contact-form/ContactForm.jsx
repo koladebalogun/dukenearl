@@ -48,8 +48,9 @@ export default function ContactForm() {
             </p>
 
             <div className={style.contact_info}>
-              <p>Call us on: +44 ----</p>
-              <p>Email: -----</p>
+              <p>Call us on: +234 7086465087 </p>
+              <p>Email: adefolarinjo@gmail.com</p>
+              <p>Address: 12, Thomas Laniyan Street, Anthony Village, Lagos State</p>
             </div>
           </div>
 
