@@ -26,7 +26,9 @@ export const footerLinks = [
    
     {
         title: "Instagram",
-        href: "https://www.instagram.com/theupnort?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        href: "https://www.instagram.com/dukes_n_earls?igsh=MTNnYnFyOTVvOTd1ag=="
     },
+
+    
    
 ]
