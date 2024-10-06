@@ -178,12 +178,15 @@ export default function Home() {
       <section className="website-content">
         <h1 className="about">About us</h1>
         <h1>
-          We are dedicated to providing our customers with an exceptional
-          fashion experience. From the moment you explore our collections to
-          the time you wear our designs, we ensure that you feel valued,
-          satisfied, and proud of your choice. Our team is always here to assist
-          you, ensuring that your journey with Duke n Earl. is nothing short of
-          extraordinary.
+          At Duke n Earl, we're passionate about creating a fashion experience
+          that goes beyond just clothing. From the moment you explore our
+          collections to the moment you wear our designs, we want you to feel
+          confident, valued, and proud of your choice. Every piece we offer is
+          thoughtfully crafted with quality and style in mind, so you can
+          express yourself with ease. Our team is always here to help, whether
+          you need advice on styling or have questions about your order. We’re
+          dedicated to making your journey with us memorable, because at Duke n
+          Earl, it’s not just about fashion it’s about how you feel wearing it.
         </h1>
       </section>
     </div>
